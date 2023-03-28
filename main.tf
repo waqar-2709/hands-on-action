@@ -13,8 +13,8 @@
 #     # An example resource that does nothing.
   provider "aws" {
   region     = "us-east-1"
-  access_key = AWS_ACCESS_ID
-  secret_key = AWS_ACCESS_KEY
+  access_key = "AKIAR27VBNN7NP4QRK72"
+  secret_key = "c1zVb1TM8RCp8VVTXeyJMp3pRUCJ5v2iWqQLchMV"
 
 }
 resource "aws_instance" "example" {
