@@ -5,7 +5,7 @@
 
 #         # The name of the Terraform Cloud workspace to store Terraform state files in.
       workspaces {
-        name = "example-workspace1"
+        name = "example-workspace2"
        }
     }
   }
