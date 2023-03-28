@@ -5,7 +5,7 @@
 
 #         # The name of the Terraform Cloud workspace to store Terraform state files in.
       workspaces {
-        name = "example-workspace4"
+        name = "example-workspace5"
        }
     }
   }
@@ -19,5 +19,5 @@
 }
 resource "aws_instance" "example" {
   ami           = "ami-0ca58e4cb9e83244e"
-  instance_type = "t1.micro"
+  instance_type = "t2.micro"
 }
