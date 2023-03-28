@@ -18,6 +18,6 @@
 
 }
 resource "aws_instance" "example" {
-  ami           = "ami-00c39f71452c08778"
-  instance_type = "t2.micro"
+  ami           = "ami-0e38fa17744b2f6a5"
+  instance_type = "t1.micro"
 }
