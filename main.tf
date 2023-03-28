@@ -12,12 +12,12 @@
 
 #     # An example resource that does nothing.
   provider "aws" {
-  region     = "us-east-1"
+  region     = "us-east-2"
   access_key = "AKIAR27VBNN7ML46LY7R"
   secret_key = "X29WFA0B20FTXdiTBDa42FA/hkak9DdNduX9Cb7f"
 
 }
 resource "aws_instance" "example" {
-  ami           = "ami-0e38fa17744b2f6a5"
+  ami           = "ami-0ca58e4cb9e83244e"
   instance_type = "t1.micro"
 }
